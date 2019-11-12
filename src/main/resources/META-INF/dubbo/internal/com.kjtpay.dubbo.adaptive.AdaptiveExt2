@@ -1,0 +1,3 @@
+dubbo=com.kjtpay.dubbo.adaptive.DubboAdaptiveExt2
+cloud=com.kjtpay.dubbo.adaptive.SpringCloudAdaptiveExt2
+thrift=com.kjtpay.dubbo.adaptive.ThriftAdaptiveExt2
