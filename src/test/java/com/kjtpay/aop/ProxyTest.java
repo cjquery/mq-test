@@ -1,6 +1,6 @@
 package com.kjtpay.aop;
 
-import com.kjtpay.mqtest.MqTestApplicationTests;
+import com.kjtpay.classLoader.MqTestApplicationTests;
 import org.junit.Test;
 import sun.misc.ProxyGenerator;
 

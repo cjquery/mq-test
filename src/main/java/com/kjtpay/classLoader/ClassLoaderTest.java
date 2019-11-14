@@ -1,7 +1,7 @@
-package com.kjtpay.mqtest;
+package com.kjtpay.classLoader;
 
 /**
- * @Package: com.kjtpay.mqtest
+ * @Package: com.kjtpay.classLoader
  * @ClassName: ClassLoaderTest
  * @author: caojiaqi
  * @Date: Created in 2019-04-16 17:45

@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest;
+package com.kjtpay.classLoader;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * @Package: com.kjtpay.mqtest
+ * @Package: com.kjtpay.classLoader
  * @ClassName: CustomClassLoader
  * @author: caojiaqi
  * @Date: Created in 2019-04-16 17:04
@@ -139,7 +139,7 @@ public class CustomClassLoader extends ClassLoader {
 	private Set<String> customClasses = new HashSet<String>();
 
 	{
-		customClasses.add("com.kjtpay.mqtest.ClassLoaderTest");
+		customClasses.add("com.kjtpay.classLoader.ClassLoaderTest");
 	}
 
 	@Override
@@ -196,7 +196,7 @@ public class CustomClassLoader extends ClassLoader {
 				try {
 					//创建新的类加载器，加载ClassLoaderTest，实现热部署
 					CustomClassLoader loader = new CustomClassLoader();
-					Class<?> clz = loader.loadClass("com.kjtpay.mqtest.ClassLoaderTest");
+					Class<?> clz = loader.loadClass("com.kjtpay.classLoader.ClassLoaderTest");
 					Object instance = clz.getConstructor().newInstance();
 					Method method = instance.getClass().getMethod("getValue");
 					method.invoke(instance);

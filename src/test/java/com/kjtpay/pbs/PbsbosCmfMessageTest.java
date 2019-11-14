@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest.pbs;
+package com.kjtpay.pbs;
 
 import com.kjtpay.rocketmq.v2.MQProducer;
 import com.netfinworks.common.util.money.Money;

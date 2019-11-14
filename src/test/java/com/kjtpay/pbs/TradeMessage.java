@@ -1,7 +1,4 @@
-package com.kjtpay.mqtest.pbs;
-
-import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
+package com.kjtpay.pbs;
 
 import java.util.Date;
 

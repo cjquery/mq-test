@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest.dubbo;
+package com.kjtpay.dubbo;
 
 
 import com.alibaba.dubbo.common.URL;

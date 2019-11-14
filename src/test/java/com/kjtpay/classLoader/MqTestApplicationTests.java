@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest;
+package com.kjtpay.classLoader;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest.tss;
+package com.kjtpay.tss;
 
 import java.util.Date;
 import java.util.Random;

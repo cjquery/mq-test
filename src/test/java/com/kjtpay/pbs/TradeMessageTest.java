@@ -1,4 +1,4 @@
-package com.kjtpay.mqtest.pbs;
+package com.kjtpay.pbs;
 
 import com.kjtpay.rocketmq.v2.MQProducer;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 
 /**
- * @Package: com.kjtpay.mqtest.pbs
+ * @Package: com.kjtpay.pbs
  * @ClassName: TradeMessageTest
  * @author: caojiaqi
  * @Date: Created in 2018-12-26 10:13
