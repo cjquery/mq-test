@@ -9,6 +9,7 @@ package com.kjtpay.mqtest;
  */
 public class ClassLoaderTest {
 	public String getValue() {
+		//自定义加载器可以运行时动态的修改代码生效
 		System.out.println("888");
 		return "666";
 	}

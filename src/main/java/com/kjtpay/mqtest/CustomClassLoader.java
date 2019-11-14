@@ -185,12 +185,16 @@ public class CustomClassLoader extends ClassLoader {
 	}
 
 	public static void main(String[] args) {
+		/*热部署步骤：
+		1、销毁该自定义ClassLoader
+		2、更新class类文件
+		3、创建新的ClassLoader去加载更新后的class类文件*/
 		Timer timer = new Timer();
 		timer.scheduleAtFixedRate(new TimerTask() {
 			@Override
 			public void run() {
 				try {
-					//创建新的类加载器，加载Foo，执行方法
+					//创建新的类加载器，加载ClassLoaderTest，实现热部署
 					CustomClassLoader loader = new CustomClassLoader();
 					Class<?> clz = loader.loadClass("com.kjtpay.mqtest.ClassLoaderTest");
 					Object instance = clz.getConstructor().newInstance();
