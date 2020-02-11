@@ -1,6 +1,6 @@
 package com.kjtpay.aop;
 
-import com.kjtpay.classLoader.MqTestApplicationTests;
+import com.kjtpay.BaseTest;
 import org.junit.Test;
 import sun.misc.ProxyGenerator;
 
@@ -15,7 +15,7 @@ import java.io.IOException;
  * @Date: Created in 2019-11-13 16:59
  * @Description： TODO
  */
-public class ProxyTest extends MqTestApplicationTests {
+public class ProxyTest extends BaseTest {
 	@Resource
 	UserManage userManage;
 	private  void saveProxyFile(String... filePath) {

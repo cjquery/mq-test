@@ -22,10 +22,11 @@ public class InsertUtil {
 			String code=codes.get(i);
 			String name=names.get(i);
 			//String s= "insert into TTL.T_DATA_DICT(CODE, DICT_TYPE, NAME, SHORT_NAME, GMT_CREATE, GMT_MODIFY) values ('replacecode','COUNTRY_CODE','replacename',null,sysdate,sysdate);";
-			String s="update fps.t_user set login_account = 'replacename',login_type='1' where user_id='replacecode';";
+			String s="update fps.t_user set login_account = 'replacename',login_type='1',pay_password='replacepassword' where user_id='replacecode';";
 			String replacecode = s.replace("replacecode", code);
 			String resultsb = replacecode.replace("replacename", name);
-			result.add(resultsb);
+			String replacepassword = resultsb.replace("replacepassword",name.substring(name.length()-4,name.length()));
+			result.add(replacepassword);
 		}
 		FileOutputStream fos = new FileOutputStream("D:\\3.txt");
 		for(String sb:result){
