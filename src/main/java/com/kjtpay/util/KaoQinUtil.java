@@ -210,7 +210,7 @@ public class KaoQinUtil {
 			if (url != null) {
 				fileName = url.getPath();
 			} else {
-				fileName = "E:/tempFile/kaoqin.txt";
+				fileName = "D:/tempFile/kaoqin.txt";
 				if (!new File(fileName).exists()) {
 					System.out.println(fileName + "不存在");
 				}

@@ -14,7 +14,7 @@ import java.util.List;
 public class InsertUtil {
 	public static void main(String[] args) throws IOException {
 
-		String dir="E:/tempFile/";
+		String dir="D:/tempFile/";
 		List<String> codes=readFile(dir+"1.txt");
 		List<String> names=readFile(dir+"2.txt");
 		List<String> result=new ArrayList<>();

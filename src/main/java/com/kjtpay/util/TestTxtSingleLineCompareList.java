@@ -14,7 +14,7 @@ public class TestTxtSingleLineCompareList {
 
 	public static void main(String[] args) {
 
-		String dir="E:/tempFile/";
+		String dir="D:/tempFile/";
 		List<String> orgis=readFile(dir+"fee.txt");
 		List<String> news=readFile(dir+"tss.txt");
 
