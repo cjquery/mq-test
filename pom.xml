@@ -46,7 +46,6 @@
             <version>4.12</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.kjtpay</groupId>
             <artifactId>kjtpay-rocketmq</artifactId>
