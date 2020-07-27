@@ -5,7 +5,9 @@ package com.kjtpay.exceptionTest;
  * @ClassName: exceptionTest
  * @author: caojiaqi
  * @Date: Created in 2019-06-13 10:20
- * @Description： TODO
+ * @Description：
+ * try中有return, 会先将值暂存，无论finally语句中对该值做什么处理，最终返回的都是try语句中的暂存值。
+ * 当try与finally语句中均有return语句，会忽略try中return。
  */
 public class ExceptionTest {
 	public int div(int a, int b) {
