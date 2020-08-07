@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @ClassName: ConditionDemo
  * @author: 曹佳琪
  * @Date: Created in 2020/7/8 17:18
- * @Description： Lock_Condition变体
+ * @Description： Lock_ConditionABC变体
  */
 public class ConditionDemo {
 	private static int num = 1; //打印“谁”标识符

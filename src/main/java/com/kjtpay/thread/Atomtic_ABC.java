@@ -1,5 +1,6 @@
 package com.kjtpay.thread;
 
+import java.math.BigDecimal;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -59,6 +60,7 @@ public class Atomtic_ABC {
 
 
 	public static void main(String[] args) {
+
 		Atomtic_ABC atomic_ABC = new Atomtic_ABC();
 		/*ExecutorService service = Executors.newFixedThreadPool(3);
 

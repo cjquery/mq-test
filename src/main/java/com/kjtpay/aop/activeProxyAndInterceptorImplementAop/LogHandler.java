@@ -41,7 +41,7 @@ public class LogHandler implements InvocationHandler {
 			return invoke;
 		}
 		Interceptor interceptor = (Interceptor)Class.forName(interceptorClass).newInstance();
-		if(interceptor.before(proxy,targetObject,method,args)){
+		if(interceptor.before(proxy,targetObject,method,args)){//类比dispatcherServlet的mappedHandler.applyPreHandle
 			System.out.println("开始打印日志");
 			result=method.invoke(targetObject,args);
 			System.out.println("结束打印日志");
