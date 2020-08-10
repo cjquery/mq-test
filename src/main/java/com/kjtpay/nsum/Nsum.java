@@ -9,7 +9,7 @@ import java.util.List;
  * @ClassName: Nsum
  * @author: 曹佳琪
  * @Date: Created in 2020/7/20 11:16
- * @Description： TODO
+ * @Description： 求多数之和的通用方法，两数之和可以使用map
  */
 public class Nsum {
 	public static List<List<Integer>> nSumTarget(
