@@ -2,8 +2,6 @@ package com.kjtpay.example;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -11,7 +9,7 @@ import java.util.Random;
  * @ClassName: ExampleTest
  * @author: 曹佳琪
  * @Date: Created in 2020/8/10 9:49
- * @Description： 小栗子测试
+ * @Description： 打印随机数组测试
  */
 public class ExampleTest {
 
@@ -19,7 +17,7 @@ public class ExampleTest {
 	 * 打印随机数组
 	 */
 	@Test
-	public void RandomPrintArrayTest() {
+	public void testRandomPrintArray() {
 		int size=10;
 		int[] array= new int[size];
 		for(int i=0;i<size;i++){
@@ -38,6 +36,7 @@ public class ExampleTest {
 		}
 
 	}
+
 
 
 
