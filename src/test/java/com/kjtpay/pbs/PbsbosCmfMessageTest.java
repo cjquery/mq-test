@@ -1,3 +1,4 @@
+/*
 package com.kjtpay.pbs;
 
 import com.kjtpay.rocketmq.v2.MQProducer;
@@ -15,8 +16,10 @@ import java.util.Date;
 @ContextConfiguration({"classpath:applicationContext-test.xml"})
 public class PbsbosCmfMessageTest {
     
- /*   @Autowired
-    private MQService mqService;*/
+ */
+/*   @Autowired
+    private MQService mqService;*//*
+
 	@Resource(name = "mqProducer")
  MQProducer mqProducer;
 	//static String topicName = "RMQ_JMS_TEST_PRODUCE";
@@ -24,10 +27,12 @@ public class PbsbosCmfMessageTest {
 
 	@Test
     public void testPbsJSON_FOUR_AMOUNT() throws Exception  {
-		/**
+		*/
+/**
 		 *  select * from pbsdb.TB_CHANNEL_CALCULATE where type = 1 and id=1
 		 *   select * from pbsdb.TB_CHANNEL_DETAIL where amount=100.00 order by gmt_create desc
-		 */
+		 *//*
+
          String pre="fourtest_oneccccc";
          PbsCmfSuccessMessage msg=new PbsCmfSuccessMessage();
         msg.setInstOrderNo(pre+System.currentTimeMillis());
@@ -51,4 +56,4 @@ public class PbsbosCmfMessageTest {
         }
     }
 
-}
+}*/

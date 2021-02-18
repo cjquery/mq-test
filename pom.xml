@@ -26,6 +26,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.22</version>
+        </dependency>
        <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -51,7 +56,7 @@
             <artifactId>kjtpay-rocketmq</artifactId>
             <version>0.0.4</version>
         </dependency>
-        <dependency>
+      <!--  <dependency>
             <groupId>com.netfinworks.pbs.bos.service</groupId>
             <artifactId>pbs-bos-service-facade</artifactId>
             <version>1.1.12-SNAPSHOT</version>
@@ -60,7 +65,7 @@
             <groupId>com.kjtpay.transfercore</groupId>
             <artifactId>transfercore-common-service-facade</artifactId>
             <version>1.0.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -90,6 +95,18 @@
             <groupId>org.xmlunit</groupId>
             <artifactId>xmlunit-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>hsjry.risk</groupId>
+            <artifactId>hsjry-compute-template</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10.2</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

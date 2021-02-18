@@ -1,3 +1,4 @@
+/*
 package com.kjtpay.tss;
 
 import java.util.Date;
@@ -70,8 +71,10 @@ public class TransferFacadeTest {
 		
 		request.setPayeeAccountNo("200100100120000001007700001");
 		request.setPayeeId("200000010077");
-	/*	request.setPayeeAccountNo("200100400220000005567300001");
-		request.setPayeeId("200000055673");*/
+	*/
+/*	request.setPayeeAccountNo("200100400220000005567300001");
+		request.setPayeeId("200000055673");*//*
+
 		request.setPayeeName("22");
 		request.setTradeAmount(new Money("1"));
 		request.setTradeMemo("备注");
@@ -82,8 +85,10 @@ public class TransferFacadeTest {
 		paymentInfo.setPayChannel("01");
 		paymentInfo.setPayerAccountNo("200100200110000049535000001");
 		paymentInfo.setPayerId("100000495350");
-		/*paymentInfo.setPayerAccountNo("200100300120000005617100001");
-		paymentInfo.setPayerId("200000056171");*/
+		*/
+/*paymentInfo.setPayerAccountNo("200100300120000005617100001");
+		paymentInfo.setPayerId("200000056171");*//*
+
 		paymentInfo.setPayerName("11");
 		paymentInfo.setPaymentVoucherNo(tvn);
 		paymentInfo.setPayMode("BALANCE");
@@ -111,3 +116,4 @@ public class TransferFacadeTest {
 		
 	}
 }
+*/

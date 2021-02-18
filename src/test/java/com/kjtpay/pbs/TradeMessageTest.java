@@ -1,3 +1,4 @@
+/*
 package com.kjtpay.pbs;
 
 import com.kjtpay.rocketmq.v2.MQProducer;
@@ -8,13 +9,15 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+*/
 /**
  * @Package: com.kjtpay.pbs
  * @ClassName: TradeMessageTest
  * @author: caojiaqi
  * @Date: Created in 2018-12-26 10:13
  * @Description： TODO
- */
+ *//*
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:applicationContext-test.xml"})
 public class TradeMessageTest {
@@ -34,3 +37,4 @@ public class TradeMessageTest {
 		}
 	}
 }
+*/
