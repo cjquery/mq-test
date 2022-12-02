@@ -256,7 +256,6 @@ public class LeastRecentlyUsedWithLinkedHashMap {
 		objectObjectLinkedHashMap.put(2,"lisi");
 		objectObjectLinkedHashMap.put(3,"wangwu");
 		objectObjectLinkedHashMap.get(1);
-		objectObjectLinkedHashMap.get(2);
 		System.out.println(objectObjectLinkedHashMap.toString());
 	}
 }
