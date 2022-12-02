@@ -1,0 +1,5 @@
+group=com.kjtpay.dubbo.activate.GroupActivateExtImpl
+value=com.kjtpay.dubbo.activate.ValueActivateExtImpl
+order1=com.kjtpay.dubbo.activate.OrderActivateExtImpl1
+order2=com.kjtpay.dubbo.activate.OrderActivateExtImpl2
+ActivateExt1Impl1.ActivateExt1Impl1

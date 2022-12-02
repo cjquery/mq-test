@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+	<!-- auto register Processor -->
+    <context:annotation-config />
+
+  <!--   <bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>sources.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<import resource="classpath:context/netfinworks-mq-jms-client.xml" />
+	<import resource="classpath:context/netfinworks-mq-jms-listener.xml" />-->
+    <bean id="mqProducer" class="com.kjtpay.rocketmq.v2.MQProducer">
+        <!--测试一-->
+       <!-- <property name="connectionUri" value="rocketmq://?consumerId=pbs_bos_consumerId&amp;producerId=pbs_bos_producerId&amp;nameServer=10.251.6.159:9876"></property>-->
+      <property name="connectionUri" value="rocketmq://?consumerId=pbs_bos_consumerId&amp;producerId=pbs_bos_producerId&amp;nameServer=192.168.180.43:9876;192.168.180.44:9876"></property>
+    </bean>
+</beans>
